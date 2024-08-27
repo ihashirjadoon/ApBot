@@ -1,0 +1,69 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hello", "Hi", "Hey", "Good morning", "Good evening", "Greetings", "What's up?"],
+            "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! Need any help?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "Goodbye", "See you later", "Talk to you later", "Catch you later", "I'm leaving"],
+            "responses": ["Goodbye! Have a great day!", "See you later! Feel free to reach out anytime.", "Take care! I'm here if you need anything."]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "Thanks a lot", "Thank you so much", "I appreciate it", "Much appreciated"],
+            "responses": ["You're welcome! I'm here to help.", "No problem! Let me know if you need anything else.", "Happy to help! Anything else you need?"]
+        },
+        {
+            "tag": "who_built_you",
+            "patterns": ["Who built you?", "Who created you?", "Who made you?", "Who is your developer?", "Who designed you?"],
+            "responses": ["I was built by Hashir from Team Hash.", "Hashir from Team Hash is my creator.", "I was designed and built by Hashir from Team Hash."]
+        },
+        {
+            "tag": "who_are_you",
+            "patterns": ["Who are you?", "What are you?", "What is your name?", "Tell me about yourself", "What do you do?"],
+            "responses": ["I'm your AI Shopping Assistant, created to help you with all your smartphone shopping needs.", "I am an AI assistant here to help you find the perfect smartphone.", "I'm your virtual assistant for anything related to smartphone shopping."]
+        },
+        {
+            "tag": "product_inquiry",
+            "patterns": ["Tell me about the latest iPhone", "What is the best smartphone?", "Show me the best Android phones", "What are the top smartphones right now?", "Recommend a good budget phone"],
+            "responses": ["The latest iPhone is the iPhone 14, featuring a new design and upgraded camera systems.", "Some of the best smartphones right now include the iPhone 14, Samsung Galaxy S22, and Google Pixel 7.", "For a budget phone, I recommend checking out the Xiaomi Redmi Note 11 or the Samsung Galaxy A52."]
+        },
+        {
+            "tag": "price_inquiry",
+            "patterns": ["How much does the iPhone 14 cost?", "What is the price of Samsung Galaxy S22?", "Is there a discount on the Google Pixel 7?", "How much should I budget for a new phone?", "What's the price range for flagship smartphones?"],
+            "responses": ["The iPhone 14 starts at around $799.", "The Samsung Galaxy S22 is priced at approximately $999.", "The Google Pixel 7 is available for around $599.", "For a new flagship smartphone, you should budget between $600 to $1200.", "Flagship smartphones typically range from $800 to $1200."]
+        },
+        {
+            "tag": "features_inquiry",
+            "patterns": ["What are the features of the iPhone 14?", "Tell me about the Samsung Galaxy S22 camera", "What makes the Google Pixel 7 special?", "Does the iPhone 14 support 5G?", "Does the Galaxy S22 have wireless charging?"],
+            "responses": ["The iPhone 14 features a powerful A15 Bionic chip, a dual-camera system, and supports 5G.", "The Samsung Galaxy S22 has a triple-camera system with a 108MP main sensor, 8K video recording, and supports wireless charging.", "The Google Pixel 7 is known for its outstanding camera performance and pure Android experience.", "Yes, the iPhone 14 supports 5G.", "Yes, the Galaxy S22 supports wireless charging."]
+        },
+        {
+            "tag": "availability_inquiry",
+            "patterns": ["Is the iPhone 14 available?", "Can I buy the Samsung Galaxy S22 now?", "When will the Google Pixel 7 be back in stock?", "Are there any pre-orders for new phones?", "Where can I buy the latest iPhone?"],
+            "responses": ["Yes, the iPhone 14 is currently available for purchase.", "The Samsung Galaxy S22 is available now.", "The Google Pixel 7 is expected to be back in stock soon.", "Pre-orders for the latest smartphones are available on most major retail sites.", "You can buy the latest iPhone from Apple’s official website or authorized retailers."]
+        },
+        {
+            "tag": "shipping_inquiry",
+            "patterns": ["How long does shipping take?", "What are the shipping options?", "Is there free shipping?", "Can I track my order?", "Do you offer international shipping?"],
+            "responses": ["Shipping typically takes 3-5 business days.", "We offer standard and express shipping options.", "Yes, free shipping is available on orders over $50.", "Yes, you can track your order using the tracking number provided.", "Yes, we offer international shipping to select countries."]
+        },
+        {
+            "tag": "return_policy",
+            "patterns": ["What is your return policy?", "Can I return a product?", "How do I return an item?", "Is there a return window?", "Are there any return fees?"],
+            "responses": ["You can return products within 30 days of purchase.", "To return an item, please visit our returns center online.", "The return window is 30 days from the date of delivery.", "There are no return fees if you use our prepaid return label.", "Items must be returned in their original condition and packaging."]
+        },
+        {
+            "tag": "warranty_inquiry",
+            "patterns": ["Is there a warranty?", "How long is the warranty?", "What does the warranty cover?", "Can I extend the warranty?", "Does the warranty cover accidental damage?"],
+            "responses": ["Yes, there is a 1-year warranty on all smartphones.", "The standard warranty period is 1 year.", "The warranty covers manufacturing defects.", "You can purchase an extended warranty at the time of checkout.", "The warranty does not cover accidental damage, but you can purchase additional protection."]
+        },
+        {
+            "tag": "cant_help",
+            "patterns": ["Can you do this?", "Can you help with that?", "Can you solve this problem?", "Do you know about something else?", "What else can you do?"],
+            "responses": ["Sorry, I can't answer that.", "I'm sorry, but I'm not able to assist with that.", "That's outside my expertise. Please try asking something else."]
+        }
+    ]
+}
