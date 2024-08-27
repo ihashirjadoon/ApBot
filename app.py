@@ -5,7 +5,7 @@ from langchain_core.messages import AIMessage, HumanMessage
 
 st.set_page_config(page_title="AI Shopping Assistant", page_icon=":speech_balloon:")
 
-training_data = load_training_data("../DATABASE FILE/training_data.json")
+training_data = load_training_data("training_data.json")
 
 
 if "chat_history" not in st.session_state:
